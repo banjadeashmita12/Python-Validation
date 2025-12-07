@@ -1,0 +1,18 @@
+Description
+
+This Python script validates an Excel file with multiple sheets. It performs the following checks:
+
+Duplicate Account Numbers Across Sheets:
+Finds AccountNo values that appear in more than one sheet and highlights them in red.
+
+Date Format Validation:
+Checks all date columns for correct format. The script supports different date formats per sheet (defined in a dictionary) and highlights invalid dates in red.
+
+Interest Rate Validation:
+Ensures InterestRate is not null and does not contain any non-numeric characters. Invalid entries are highlighted in red.
+
+Duration Validation:
+Ensures Duration is not null and numeric. Invalid entries are highlighted in red.
+
+Error Highlighting:
+All errors are highlighted using red fill in the respective Excel cells.
